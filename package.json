@@ -1,0 +1,24 @@
+{
+  "name": "@lumjs/tyst",
+  "version": "1.0.0",
+  "type": "module",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "devDependencies":
+  {
+    "@lumjs/tests": "^2.2.0"
+  },
+  "scripts":
+  {
+    "test": "lumtest.js"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.tyst.js.git"
+  },
+  "license": "MIT"
+}
