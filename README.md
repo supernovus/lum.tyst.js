@@ -57,17 +57,15 @@ handlers to pass to parseTypedString() as well.
 
 ### Transcoder
 
-A simple class that you can create an instance of, passing two sets of
-options (one for encoding/serialising and one for decoding/parsing), 
-and then it will provide encode() and decode() methods (with stringify()
-and parse() aliases for a more JSON-like API) to use as needed.
+A class that you can create an instance of, passing options that will
+be used as defaults for both encoding and decoding.
 
-### CustomFormat
+You can also make sub-classes with specially named methods that will
+be used to automatically generate custom handlers.
 
-An abstract class that acts as an alternative to Transcoder. 
-Instead of passing custom handlers via constructor options,
-you simply implement specially named methods in a subclass and then
-can just create instances of your custom transcoding class.
+## TODO
+
+- Tests
 
 ## Official URLs
 
