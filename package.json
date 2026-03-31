@@ -5,6 +5,7 @@
   "exports":
   {
     ".": "./lib/index.js",
+    "./tests": "./lib/tests.js",
     "./package.json": "./package.json"
   },
   "devDependencies":
